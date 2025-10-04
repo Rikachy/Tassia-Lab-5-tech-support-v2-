@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 import java.util.Random;
-
+import java.util.HashSet;
 /**
  * The responder class represents a response generator object. It is used
  * to generate an automatic response. This is the second version of this 
@@ -14,7 +14,7 @@ public class Responder
 {
     private Random randomGenerator;
     private ArrayList<String> responses;
-
+    
     /**
      * Construct a Responder
      */
@@ -61,6 +61,11 @@ public class Responder
         responses.add("Could you elaborate on that?");
         responses.add("Have you tried running the app on your phone?");
         responses.add("I just checked StackOverflow - they don't know either.");
+        responses.add("Are you running any other processes in the background?");
+        responses.add(" Well, it never crashes on our system, so it must be your system");
+        responses.add("This is a known bug to do with the Windows operating system.");
     }
+
 }
+
 

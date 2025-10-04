@@ -17,4 +17,7 @@ few changes discussed in this book chapter.
 To start this program, create a SupportSystem object and execute the "start" 
 method.
 
-Then start describing your problem by typing in the terminal window.
+Then start describing your problem by typing in the terminal window.\
+
+Question 39-42.
+couldn't find the default reponses 
